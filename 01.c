@@ -1,24 +1,31 @@
 /*01- Print square and cube of a given number*/
 #include <stdio.h>
-int input_num, sqr, cube;
+int input_num;  /*Global Declarations*/
+
+/* Function to calculate and print square of number*/
 int squareOfinputNum(int input_num)
 { 
-sqr= input_num * input_num;
-return sqr;
+    int sqr;
+    sqr= input_num * input_num;
+    printf("Square=%d \n", sqr);
+    return sqr;
 }
+
+/* Function to calculate and print cube of number*/
 int cubeOfinputnum(int input_num)
 {
-cube = squareOfinputNum(input_num) * input_num;
-return cube;
+    int cube;
+    cube = input_num * input_num * input_num;
+    printf("Cube= %d", cube);
+    return cube;
 }
 void main()
 {
-int square_rslt, cube_rslt;
-printf(" Enter number (int only) to calculate it's square and cube:");
 
-scanf("%d", &input_num);
-square_rslt= squareOfinputNum(input_num);
-cube_rslt = cubeOfinputnum(input_num);
-printf("Square=%d", square_rslt);
-printf("Cube= %d", cube_rslt);
+    printf(" Enter number (int only) to calculate it's square and cube:");
+
+    scanf("%d", &input_num); /*Accept the number to calculate square and cube*/
+    squareOfinputNum(input_num);
+    cubeOfinputnum(input_num);
+
 }
