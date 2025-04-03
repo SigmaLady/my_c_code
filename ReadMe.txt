@@ -1,15 +1,14 @@
-Here are 20 coding questions for you to solve.
+📂 C Programming Practice  
+A collection of C code exercises, projects, and snippets I've written to sharpen my programming skills. Includes solutions to common problems, algorithm implementations, data structures, and mini-projects—ranging from beginner-friendly "Hello World" examples to more complex programs.  
 
-Goal is to get yourself familiar with the syntax and usage of C by solving these problems.
+✨ Highlights:  
+- Purpose: Reinforce core C concepts, improve problem-solving skills, and prepare for technical interviews.  
+- For: Students, developers, or anyone learning low-level programming or revisiting C fundamentals.  
 
-You can understand the "logic" from internet if need to - then use the C language to code it in.
+🔧 Contributions Welcome! 
+Feel free to fork, suggest improvements, or add your own solutions. Let’s learn together!  
 
-Make sure that you use a self explanatory text for asking user input, and Output should be in a new line.
+🚀 Getting Started: Clone the repo, compile with gcc, and experiment. Code is organized by topic for easy navigation.  
 
-Use a new file for every coding question. Filename should be 01.c, 02.c .... Likewise - using the question numbers.
+Happy coding! 🖥💡  
 
-Each file should start by writing the actual question as a C comment. Followed by code. 
-
-Use proper variable names, and ensure to put proper comments in code section to tell what that block of code is doing.
-
-IF U HAVE TO TAKE HELP - MAKE SURE TO UNDERSTAND THE Code BEFORE COPYING. GOAL IS TO LEARN.
